@@ -58,9 +58,9 @@ Computes the total energy H and the absolute magnetisation |M| of the current co
 
 **`Correlation_time(Observable)`**
 Estimates the integrated autocorrelation time τ from the lag-1 autocorrelation ρ(1) using the approximation:
-```
-τ ≈ ρ(1) / (1 − ρ(1))
-```
+
+$$τ ≈ ρ(1) / (1 − ρ(1))$$
+
 This is used to correct statistical error bars, since consecutive measurements are correlated.
 
 **`r1k(L)`**
