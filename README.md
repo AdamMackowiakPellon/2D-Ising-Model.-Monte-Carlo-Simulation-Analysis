@@ -96,9 +96,8 @@ Reads the CSV files produced by the simulation and computes physics quantities, 
 
 Raw standard deviations from the simulation are **not** valid error bars because consecutive measurements are correlated. The corrected error on a mean is:
 
-```
-δ⟨X⟩ = σ_X × sqrt( (2τ + 1) / N_meas )
-```
+
+$$δ⟨X⟩ = σ_X × sqrt( (2τ + 1) / N_meas )$$
 
 where τ is the autocorrelation time loaded from `correlation_time_L_*.csv` and N_meas = 1000. This is applied to all observables via `error_from_tau`.
 
