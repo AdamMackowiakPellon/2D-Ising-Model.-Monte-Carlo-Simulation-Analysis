@@ -6,15 +6,6 @@ The coupling constant is set to **J = 1** throughout, so temperatures are given 
 
 ---
 
-## Repository Structure
-
-```
-├── main_ising_2d.jl      # Monte Carlo simulation engine (data generation)
-├── ising_analysis.jl     # Post-processing, plotting, and critical exponent fitting
-└── README.md
-```
-
----
 
 ## Physics Background
 
