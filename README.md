@@ -11,20 +11,13 @@ The coupling constant is set to **J = 1** throughout, so temperatures are given 
 
 The 2D Ising model describes spins s_i = ±1 on a square lattice interacting via the Hamiltonian:
 
-```
 $$
-H = -J Σ s_i s_j       (sum over nearest-neighbour pairs)
+\mathcal{H} = -J \sum_{\langle i,j \rangle} s_i s_j
 $$
-```
 
 The model has an exact analytical solution (Onsager, 1944) with a second-order phase transition at the critical temperature $T_c ≈ 2.269 J/k_B$. Below T_c the system is ferromagnetically ordered; above it the spins are disordered. Near T_c, thermodynamic observables diverge with universal critical exponents:
 
-```
-m     ~ |t|^β        (order parameter,       β = 1/8)
-c_v   ~ |t|^(-α)     (heat capacity,         α = 0  — logarithmic divergence)
-χ     ~ |t|^(-γ)     (susceptibility,        γ = 7/4)
-ξ     ~ |t|^(-ν)     (correlation length,    ν = 1)
-```
+$$m \sim |t|^\beta, \quad \chi \sim |t|^{-\gamma}, \quad \xi \sim |t|^{-\nu}$$
 
 where $t = (T - T_c) / T_c$ is the reduced temperature.
 
