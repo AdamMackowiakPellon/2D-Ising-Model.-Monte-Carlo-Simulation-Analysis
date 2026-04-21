@@ -24,7 +24,7 @@ c_v   ~ |t|^(-α)     (heat capacity,         α = 0  — logarithmic divergence
 ξ     ~ |t|^(-ν)     (correlation length,    ν = 1)
 ```
 
-where `t = (T - T_c) / T_c` is the reduced temperature.
+where $t = (T - T_c) / T_c$ is the reduced temperature.
 
 ---
 
